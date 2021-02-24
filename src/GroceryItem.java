@@ -48,7 +48,7 @@ public class GroceryItem {
      * @param category
      */
     public void setCategory(String category) {
-        List<String> categories = Arrays.asList("fruit","vegetables","beef","dairy","seafood");
+        List<String> categories = Arrays.asList("fruit","vegetables","beef","dairy","seafood","bread");
         if(categories.contains(category.toLowerCase()))
             this.category = category;
         else
